@@ -1,0 +1,92 @@
+{
+  "framework": "esx",
+  "lang": "en",
+  "keys": {
+    "openMenu": 38
+  },
+  "rentForFree": false,
+  "payForTime": true,
+  "payInterval": 5,
+  "blockIfCantPay": true,
+  "payForDamage": true,
+  "damageCost": 1,
+  "payIfDestroyed": true,
+  "destroyedPayMultiplier": 10,
+  "menu": {
+    "scale": 1,
+    "bgPrimary": "#4a4a55",
+    "bgSecondary": "#35353f",
+    "xActive": "#ff666f",
+    "xInactive": "#4a4a55"
+  },
+  "vehicles": [
+    {
+      "model": "faggio2",
+      "label": "Faggio",
+      "price": 12,
+      "info": [
+        "A certain kind of man drives a scooter. Is that you?"
+      ]
+    },
+    {
+      "model": "faggio",
+      "label": "Faggio Sport",
+      "price": 14,
+      "info": [
+        "The modern urban thug doesn't need fat tires, massive cylinders and reinforced bodywork to make the streets his kingdom. Welcome to a world where the only ride you need has recycled plastic panels, the wheels off a shopping cart and the same engine as your refrigerator. And trust us, when your crew rolls into town that deafening high-pitched whine will strike fear and lust into the hearts of your enemies."
+      ]
+    }
+  ],
+  "zones": [
+    {
+      "name": "airport",
+      "x": -1016.87,
+      "y": -2696.01,
+      "z": 12.98,
+      "showBlip": true
+    },
+    {
+      "name": "legion square",
+      "x": 38.76,
+      "y": -1001.58,
+      "z": 28.44,
+      "showBlip": true
+    }
+
+  ],
+  "marker": {
+    "type": 1,
+    "direction": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 2.0,
+      "y": 2.0,
+      "z": 1.0
+    },
+    "color": {
+      "r": 35,
+      "g": 191,
+      "b": 124
+    },
+    "alpha": 100,
+    "bob": false,
+    "face": false,
+    "distance": {
+      "show": 100.0,
+      "open": 2.0
+    }
+  },
+  "blips": {
+    "color": 17,
+    "id": 559,
+    "size": 1.0
+  }
+}
